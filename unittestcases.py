@@ -19,3 +19,9 @@ def test_3(self):
   result = multiplication(-3,-4)
 
 self.assertEqual(result,12)
+
+
+
+if _name_ == '__main__':
+  unittest.main()
+
