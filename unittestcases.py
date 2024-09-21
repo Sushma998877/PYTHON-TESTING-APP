@@ -6,19 +6,25 @@ class MultiplyTestCase(unittest.TestCase):
 
     result = multiplication(3,4)
 
-self.assertEqual(result,12)
+    self.assertEqual(result,12)
 
 def test_2(self):
 
   result = multiplication(3,-4)
 
-self.assertEqual(result,-12)
+  self.assertEqual(result,-12)
 
 def test_3(self):
 
   result = multiplication(-3,-4)
 
-self.assertEqual(result,12)
+  self.assertEqual(result,12)
+
+def test_4(self):
+
+  result = multiplication(3,0)
+
+  self.assertEqual(result,0)
 
 
 
